@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Keven</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Menu Header -->
+    <div class="header-container">
+        <header>
+            <div class="logo">
+                <a href="#">
+                    <img class="svg" src="./img/Logo.svg" alt="start">
+                </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#start" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#about-me" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- Start section -->
+    <section id="start" class="start">
+        <div class="banner-container">
+            <div class="img-container">
+                <img class="img-keven" src="./img/keven_img.png" alt="foto de keven">
+            </div>
+            <h1>KEVEN PALACIOS</h1>
+            <h2>Functional analyst | Aspiring UX UI designer</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/palacioskeven/"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/keven-mario-palacios-orozco-393b08132/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/keven.palacios.9/"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- About me section -->
+    <section id="about-me" class="about-me">
+        <div class="section-container">
+            <h2>Sobre mí</h2>
+            <p><span>Hi, I'm  Keven Palacios. </span>As a psychologist, I am passionate about understanding how we learn and how to apply this knowledge in various fields. 
+                Currently, I am expanding my skills in software development with basic knowledge of JavaScript, Python, CSS, and HTML, and I am in the process of getting certified as a UX designer.
+                <br>  My goal is to integrate these skills to create efficient user experiences based on sound psychological principles. 
+                <br>I am looking for opportunities to develop and expand my knowledge in UX/UI design and technology and apply my expertise in learning psychology..</p>
+            <div class="fila">
+                <!-- personal data -->
+                <div class="col" >
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li><strong>Email: </strong>kevenpalaciosorozco@gmail.com</li>
+                        <li><strong>Telefono: </strong>+52-3173878130</li>
+                        <li><strong>Puesto: </strong><span>Freelancer</span></li>
+                    </ul>
+                </div>
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="intereses-container">     
+                        <div class="interes"><i class="fa-solid fa-brain"></i>
+                            <span>Psicología</span></div>
+                        <div class="interes"><i class="fa-solid fa-robot"></i>
+                            <span>Inteligencia Artificial</span></div>
+                        <div class="interes"><i class="fa-solid fa-chalkboard-user"></i> <span>Aprendizaje</span></div>
+                    </div>
+                </div>
+            </div>
+            <a href="" download>
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>  
+            </a>
+        </div>
+       
+    </section>
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <div class="section-container">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Professionals skills -->
+                <div class="col">
+                    <h3>Professionals skills</h3>
+                <div class="skill">
+                    <span>Functional analyst</span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Interviewing</span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Project Planning
+                    </span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Team Leadership
+                    </span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Process and Methods Design
+                    </span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!-- Technical skills -->
+                <div class="col">
+                    <h3>Technical skills</h3>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>20%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>30%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Css</span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>30%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Pothoshop</span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Notion</span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>20%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>UX & UI</span>
+                    <div class="skill-bar">
+                        <div class="progres">
+                            <span>30%</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Curriculum section -->
+    <section id="curriculum" class="curriculum">
+        <div class="section-container">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Master’s student in Law</h4>
+                        <span class="lugar">Universidad de Guadalajara</span>
+                        <span class="fecha">2019 </span>
+                        <p>Defense of thesis to be titled</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachelor's Degree in Psychology </h4>
+                        <span class="lugar">Universidad de Guadalajara</span>
+                        <span class="fecha">2012 - 2018</span>
+                        <p>CENEVAL Performance Excellence Award for EGEL 
+                            Issued by CENEVAL · Jan. 2018</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Psychological consultation</h4>
+                        <span class="lugar">Núcleo de Salud Mental CD Guzmán</span>
+                        <span class="fecha">2024</span>
+                        <p>Psychological consultation based on functional behavior analysis and contextual therapies</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Follow-up Executive</h4>
+                        <span class="lugar">Rocketbox Business Crew </span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Design and implementation of educational processes and programs. 
+                        Job analysis through Critical Incident Method.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Municipal Comptroller's</h4>
+                        <span class="lugar">Office of La Huerta</span>
+                        <span class="fecha">2021</span>
+                        <p>Administrative process auditing</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Psychological consultation</h4>
+                        <span class="lugar">Zapotlense Women's Institute</span>
+                        <span class="fecha">2020</span>
+                        <p>Psychotherapeutic support for adults and adolescents.
+                            Emotional support for victims of violence.
+                            Legal assistance and counseling</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="section-container">
+            <h2>Portfolio</h2>
+            <div class="galery">
+                <div class="proyecto">
+                    <img src="img/pshop14.jpg" alt="foto mirando al horizonte">
+                    <div class="overlay">
+                        <h3>Potoshop</h3>
+                        <p>Fotografía cayak</p> 
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/pshop13.jpg" alt="foto mirando al horizonte">
+                    <div class="overlay">
+                        <h3>Potoshop</h3>
+                        <p>Fotografía cayak</p> 
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/pshop12.jpg" alt="foto mirando al horizonte">
+                    <div class="overlay">
+                        <h3>Potoshop</h3>
+                        <p>Fotografía cayak</p>
+                    </div>   
+                </div>
+                <div class="proyecto">
+                    <img src="img/pshop11.jpg" alt="foto mirando al horizonte">
+                    <div class="overlay">
+                        <h3>Potoshop</h3>
+                        <p>Fotografía cayak</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacto section -->
+    <section id="contacto" class="contacto">
+        <div class="section-cotainer">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario de contacto -->
+                <div class="col">
+                    <input type="text" placeholder="Tú nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Contacto adicional -->
+                <div class="col">
+                    <div class="info">
+                        <ul>
+                            <li><i class="fa-brands fa-square-whatsapp"></i>
+                                WhatsApp: +523173878130</li>
+                            <li><i class="fa-solid fa-envelope"></i>
+                                Email: kevenpalaciosorozco@gmail.com </li>
+                        </ul>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="#start" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
